@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-headline-md: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body-md: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --text-headline-md: 1.25rem;
+  --text-headline-md--line-height: 1.75rem;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75rem;
+  --text-body-md: 1rem;
+  --text-body-md--line-height: 1.5rem;
+  --text-label-sm: 0.75rem;
+  --text-label-sm--line-height: 1rem;
+
+  /* Neutral background */
+  --color-background: #f8fafc;
+  --color-on-background: #101a26;
+
+  /* Primary - brand blue */
+  --color-primary: #2f5df5;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #2447c9;
+  --color-primary-fixed: #dde6ff;
+  --color-on-primary-fixed: #1a2f7a;
+  --color-primary-fixed-dim: #a9c0ff;
+
+  /* Secondary - teal (paperless / success) */
+  --color-secondary: #0d9488;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #ccfbf1;
+  --color-secondary-fixed: #99f6e4;
+
+  /* Tertiary - violet (teams / admin) */
+  --color-tertiary: #7c3aed;
+  --color-on-tertiary: #ffffff;
+
+  /* Error - red */
+  --color-error: #dc2626;
+  --color-error-container: #fee2e2;
+
+  /* Surfaces */
+  --color-surface: #ffffff;
+  --color-on-surface: #101a26;
+  --color-on-surface-variant: #5b6b7c;
+  --color-surface-container-lowest: #f7f9fc;
+  --color-surface-container-low: #f3f5f9;
+  --color-surface-container: #e9edf3;
+  --color-surface-container-highest: #dde3eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
