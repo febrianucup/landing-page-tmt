@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Stats() {
   const statsData = [
-    { icon: 'bolt', color: 'text-primary bg-primary/10', value: '50%', desc: 'Penghematan waktu admin & birokrasi per minggu.' },
-    { icon: 'eco', color: 'text-secondary bg-secondary/10', value: '100%', desc: 'Paperless. Bebas tumpukan kertas untuk pelaporan Harian/Bulanan.' },
-    { icon: 'groups', color: 'text-tertiary bg-tertiary/10', value: '3 Peran', desc: 'Terintegrasi sempurna untuk Guru, TU, dan Kepala Sekolah.' },
+    { icon: 'timelapse', color: 'text-primary bg-primary/10', value: '50%', desc: 'Penghematan waktu admin & birokrasi per minggu.' },
+    { icon: 'devices', color: 'text-secondary bg-secondary/10', value: '100%', desc: 'Paperless. Bebas tumpukan kertas untuk pelaporan Harian/Bulanan.' },
+    { icon: 'groups', color: 'text-tertiary bg-tertiary/10', value: '3 Role', desc: 'Terintegrasi sempurna untuk Guru, TU/Admin, dan Kepala Sekolah.' },
   ];
 
   return (
