@@ -18,12 +18,12 @@ export default function Hero() {
           }
         >
           <div data-aos="fade-up">
-            {hero.eyebrow ? (
+            {/* {hero.eyebrow ? (
               <span className="inline-flex items-center gap-2 rounded-full border border-line bg-subtle px-3 py-1.5 text-micro font-bold uppercase tracking-wider text-muted">
                 <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                 {hero.eyebrow}
               </span>
-            ) : null}
+            ) : null} */}
 
             <h1 className="mt-5 font-display text-[36px] font-extrabold leading-[1.08] tracking-tight text-ink sm:text-[46px] lg:text-[54px]">
               {hero.title}{' '}
@@ -77,14 +77,14 @@ export default function Hero() {
               </ul>
             ) : null}
 
-            {hero.showTrust && hero.trust ? (
+            {/* {hero.showTrust && hero.trust ? (
               <p className="mt-6 flex items-center gap-2 text-label font-medium text-faint">
                 <span className="material-symbols-outlined text-[17px] text-primary">
                   verified
                 </span>
                 {hero.trust}
               </p>
-            ) : null}
+            ) : null} */}
           </div>
 
           {hero.showImage ? (
